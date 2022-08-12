@@ -1,0 +1,54 @@
+:root {
+  --c1: #f5f5f5;
+  --c2: #ebe6e6;
+  --c3: #293a80;
+  --c4: #010038;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--c1);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Share Tech Mono", monospace;
+  color: var(--c4);
+}
+
+a,
+a:visited {
+  color: var(--c3);
+}
+
+a:active,
+a:hover {
+  color: var(--c4);
+}
+
+button {
+  font-family: "Share Tech Mono", monospace;
+  cursor: pointer;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: var(--c2);
+}
+
+.Footer {
+  background-color: var(--c2);
+  color: var(--c4);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+}

@@ -1,0 +1,27 @@
+.OSD {
+  font-size: 24px;
+  flex: 1;
+  color: var(--c4);
+  padding: 0 10px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.OSD-line--bottom {
+  justify-content: flex-end;
+  margin-top: auto;
+}
+
+.OSD-line--help {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.OSD-audio svg {
+  fill: var(--c3);
+  height: 20px;
+  width: auto;
+}
